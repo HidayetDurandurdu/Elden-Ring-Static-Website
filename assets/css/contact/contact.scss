@@ -1,0 +1,48 @@
+@import "../_variables";
+
+#about-game {
+    .help-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        width: 100%;
+        .requirements {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 50px;
+            width: 100%;
+            @media (max-width: 992px) {
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .requirements-body a {
+                color: white!important;
+                &:hover {
+                    color: $primary!important;
+                }
+            }
+        }
+        input {
+            background-color: #A1A7A6;
+            color: white;
+            border-radius: 20px;
+            &::placeholder {
+            color: white;
+            }
+            &:focus {
+            background-color: #4e5251;
+            color: white;
+            box-shadow: none;
+            }
+        }
+    }
+    .contact-wrapper {
+        .contact {
+            i {
+                color: black;
+                font-size: 30px;
+            }
+        }
+    }
+}

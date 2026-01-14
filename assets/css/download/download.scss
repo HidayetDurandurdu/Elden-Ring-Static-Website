@@ -1,0 +1,36 @@
+@import "../_variables";
+
+#about-game {
+    .dl-here {
+        color: $primary!important;
+        &:hover {
+            color: white;
+        }
+    }
+    .header-wrapper {
+        width: 100%;
+        text-align: center;
+    }
+    .requirements-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        width: 100%;
+        .requirements {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 50px;
+            width: 100%;
+            @media (max-width: 992px) {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+        .install-guide {
+            width: 70%;
+            @media (max-width: 992px) {
+                width: 100%
+            }
+        }
+    }
+}

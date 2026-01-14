@@ -1,0 +1,82 @@
+/*setting an accent color variable*/
+/*setting a second accent color variable*/
+/*setting a custom background color variable*/
+/*custom heading styling*/
+.h1 {
+  font-weight: 700 !important;
+  font-size: clamp(2.1875rem, 2.0127rem + 0.8228vw, 3rem) !important;
+}
+.h1 .h1-first {
+  color: #B88A4E !important;
+}
+
+.h2 {
+  font-weight: 700 !important;
+  font-size: clamp(1.875rem, 1.7405rem + 0.6329vw, 2.5rem) !important;
+}
+
+.h3 {
+  font-weight: 700 !important;
+  font-size: clamp(1.625rem, 1.5174rem + 0.5063vw, 2.125rem) !important;
+}
+
+.h4 {
+  font-weight: 500 !important;
+  font-size: clamp(1.375rem, 1.3212rem + 0.2532vw, 1.625rem) !important;
+}
+
+.h5 {
+  font-weight: 400 !important;
+  font-size: clamp(1.125rem, 1.0981rem + 0.1266vw, 1.25rem) !important;
+}
+
+.h6 {
+  font-weight: 400 !important;
+  font-size: clamp(1rem, 0.9731rem + 0.1266vw, 1.125rem) !important;
+}
+
+#about-game .help-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  width: 100%;
+}
+#about-game .help-wrapper .requirements {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  width: 100%;
+}
+@media (max-width: 992px) {
+  #about-game .help-wrapper .requirements {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+#about-game .help-wrapper .requirements .requirements-body a {
+  color: white !important;
+}
+#about-game .help-wrapper .requirements .requirements-body a:hover {
+  color: #B88A4E !important;
+}
+#about-game .help-wrapper input {
+  background-color: #A1A7A6;
+  color: white;
+  border-radius: 20px;
+}
+#about-game .help-wrapper input::-moz-placeholder {
+  color: white;
+}
+#about-game .help-wrapper input::placeholder {
+  color: white;
+}
+#about-game .help-wrapper input:focus {
+  background-color: #4e5251;
+  color: white;
+  box-shadow: none;
+}
+#about-game .contact-wrapper .contact i {
+  color: black;
+  font-size: 30px;
+}/*# sourceMappingURL=contact.css.map */

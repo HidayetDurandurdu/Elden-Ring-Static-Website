@@ -1,0 +1,39 @@
+$primary: #B88A4E;
+$secondary: #8b1a1a;
+$accent: #4A5C6E; /*setting an accent color variable*/
+$accent2: #A1A7A6; /*setting a second accent color variable*/
+$background: #2e2b2b; /*setting a custom background color variable*/
+
+/*custom heading styling*/
+.h1 {
+    font-weight: 700!important;
+    font-size: clamp(2.1875rem, 2.0127rem + 0.8228vw, 3rem)!important;
+    .h1-first {
+        color: $primary!important;
+    }
+}
+
+.h2 {
+    font-weight: 700!important;
+    font-size: clamp(1.875rem, 1.7405rem + 0.6329vw, 2.5rem)!important;
+}
+
+.h3 {
+    font-weight: 700!important;
+    font-size: clamp(1.625rem, 1.5174rem + 0.5063vw, 2.125rem)!important;
+}
+
+.h4 {
+    font-weight: 500!important;
+    font-size: clamp(1.375rem, 1.3212rem + 0.2532vw, 1.625rem)!important;
+}
+
+.h5 {
+    font-weight: 400!important;
+    font-size: clamp(1.125rem, 1.0981rem + 0.1266vw, 1.25rem)!important;
+}
+
+.h6 {
+    font-weight: 400!important;
+    font-size: clamp(1rem, 0.9731rem + 0.1266vw, 1.125rem)!important;
+}

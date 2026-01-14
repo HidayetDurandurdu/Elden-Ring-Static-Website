@@ -1,0 +1,20 @@
+.contact-wrapper {
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+  input, textarea, select {
+    background-color: #A1A7A6;
+    color: white;
+    &::placeholder {
+      color: white;
+    }
+    &:focus {
+      background-color: #4e5251;
+      color: white;
+      box-shadow: none;
+    }
+  }
+  label {
+    color: #000;
+  }
+}
